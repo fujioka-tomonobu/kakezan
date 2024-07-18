@@ -44,7 +44,7 @@ var event = new function(){
 	'use strict';
 	
 	// 定数
-	var 問題数 = 10;
+	var 問題数 = 30;
 	var 回答中 = 1;
 	var 答え表示中 = 2;
 	
