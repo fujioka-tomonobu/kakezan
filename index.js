@@ -108,7 +108,7 @@ var event = new function(){
 	 */
 	this.veryhard = function(){
 		event.startMusic();
-		一問時間 = 1.5 * 1000;
+		一問時間 = 1.3 * 1000;
 		event.countDown();
 	};
 	
