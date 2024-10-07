@@ -84,7 +84,7 @@ var event = new function(){
 	 */
 	this.easy = function(){
 		event.startMusic();
-		一問時間 = 3 * 1000;
+		一問時間 = 4 * 1000;
 		
 		かけ算_第一項範囲 = [1, 9];
 		かけ算_第二項範囲 = [1, 9];
@@ -97,7 +97,7 @@ var event = new function(){
 	 */
 	this.normal = function(){
 		event.startMusic();
-		一問時間 = 7 * 1000;
+		一問時間 = 9 * 1000;
 		
 		かけ算_第一項範囲 = [11, 19];
 		かけ算_第二項範囲 = [2, 5];
@@ -110,7 +110,7 @@ var event = new function(){
 	 */
 	this.hard = function(){
 		event.startMusic();
-		一問時間 = 7 * 1000;
+		一問時間 = 12 * 1000;
 		
 		かけ算_第一項範囲 = [11, 99];
 		かけ算_第二項範囲 = [2, 9];
@@ -123,7 +123,7 @@ var event = new function(){
 	 */
 	this.veryhard = function(){
 		event.startMusic();
-		一問時間 = 2 * 1000;
+		一問時間 = 3 * 1000;
 		
 		かけ算_第一項範囲 = [11, 99];
 		かけ算_第二項範囲 = [2, 9];
