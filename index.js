@@ -84,10 +84,10 @@ var event = new function(){
 	 */
 	this.easy = function(){
 		event.startMusic();
-		一問時間 = 4 * 1000;
+		一問時間 = 7 * 1000;
 		
-		かけ算_第一項範囲 = [1, 9];
-		かけ算_第二項範囲 = [1, 9];
+		かけ算_第一項範囲 = [1, 5];
+		かけ算_第二項範囲 = [2, 9];
 		
 		event.countDown();
 	};
@@ -97,10 +97,10 @@ var event = new function(){
 	 */
 	this.normal = function(){
 		event.startMusic();
-		一問時間 = 9 * 1000;
+		一問時間 = 5 * 1000;
 		
-		かけ算_第一項範囲 = [11, 19];
-		かけ算_第二項範囲 = [2, 5];
+		かけ算_第一項範囲 = [2, 9];
+		かけ算_第二項範囲 = [2, 9];
 		
 		event.countDown();
 	};
