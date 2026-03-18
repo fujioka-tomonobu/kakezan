@@ -99,8 +99,8 @@ var event = new function(){
 		event.startMusic();
 		一問時間 = 5 * 1000;
 		
-		かけ算_第一項範囲 = [2, 9];
-		かけ算_第二項範囲 = [2, 9];
+		かけ算_第一項範囲 = [3, 9];
+		かけ算_第二項範囲 = [3, 9];
 		
 		event.countDown();
 	};
@@ -179,8 +179,8 @@ var event = new function(){
 
 		何問目++;
 		
-		var num1 = Math.floor(Math.random() * (かけ算_第一項範囲[1] - かけ算_第一項範囲[0])) + かけ算_第一項範囲[0];
-		var num2 = Math.floor(Math.random() * (かけ算_第二項範囲[1] - かけ算_第二項範囲[0])) + かけ算_第二項範囲[0];
+		var num1 = Math.floor(Math.random() * (かけ算_第一項範囲[1] - かけ算_第一項範囲[0] + 1)) + かけ算_第一項範囲[0];
+		var num2 = Math.floor(Math.random() * (かけ算_第二項範囲[1] - かけ算_第二項範囲[0] + 1)) + かけ算_第二項範囲[0];
 		
 		var answer = num1 * num2;
 		
